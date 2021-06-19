@@ -1,0 +1,241 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.5.17",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                5,
+                11,
+                12
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "Node_5"
+        },
+        {
+            "children" : [
+                0
+            ],
+            "name" : "\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_Cinema_4D",
+            "rotation" : [
+                -0.009840540587902069,
+                0.09882719069719315,
+                -0.09810825437307358,
+                0.9902076125144958
+            ],
+            "translation" : [
+                -497.1609191894531,
+                110.5306396484375,
+                5.633099555969238
+            ]
+        },
+        {
+            "name" : "\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_1"
+        },
+        {
+            "children" : [
+                1,
+                2
+            ],
+            "name" : "RootNode"
+        },
+        {
+            "children" : [
+                3
+            ],
+            "name" : "00a1d5d896df462d8d9d46baad009007.fbx",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ]
+        },
+        {
+            "children" : [
+                4
+            ],
+            "name" : "RootNode (model correction matrix)"
+        },
+        {
+            "name" : "Node_5.001"
+        },
+        {
+            "children" : [
+                6
+            ],
+            "name" : "\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_Cinema_4D.001",
+            "rotation" : [
+                -0.009840540587902069,
+                0.09882719069719315,
+                -0.09810825437307358,
+                0.9902076125144958
+            ],
+            "translation" : [
+                -497.1609191894531,
+                110.5306396484375,
+                5.633099555969238
+            ]
+        },
+        {
+            "name" : "\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd\ufffd_1.001"
+        },
+        {
+            "children" : [
+                7,
+                8
+            ],
+            "name" : "RootNode.001"
+        },
+        {
+            "children" : [
+                9
+            ],
+            "name" : "00a1d5d896df462d8d9d46baad009007.fbx.001",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ]
+        },
+        {
+            "children" : [
+                10
+            ],
+            "name" : "RootNode (model correction matrix).001"
+        },
+        {
+            "mesh" : 0,
+            "name" : "Cube",
+            "scale" : [
+                10,
+                10,
+                10
+            ],
+            "translation" : [
+                0.026347383856773376,
+                0.0694761574268341,
+                0.0005526877357624471
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "Material",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Cube",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "\u0411\u0435\u0437 \u0438\u043c\u0435\u043d\u0438-3-\u0432\u043e\u0441\u0441\u0442\u0430\u043d\u043e\u0432\u043b\u0435\u043d\u043e666",
+            "uri" : "ct2/%D0%91%D0%B5%D0%B7%20%D0%B8%D0%BC%D0%B5%D0%BD%D0%B8-3-%D0%B2%D0%BE%D1%81%D1%81%D1%82%D0%B0%D0%BD%D0%BE%D0%B2%D0%BB%D0%B5%D0%BD%D0%BE666.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 24,
+            "max" : [
+                1,
+                1,
+                1
+            ],
+            "min" : [
+                -1,
+                -1,
+                -1
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 24,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 24,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 36,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 288,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 288,
+            "byteOffset" : 288
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 192,
+            "byteOffset" : 576
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 72,
+            "byteOffset" : 768
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 840,
+            "uri" : "ct2.bin"
+        }
+    ]
+}
